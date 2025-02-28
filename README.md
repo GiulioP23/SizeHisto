@@ -31,3 +31,8 @@ Eseguendo il seguente comando si può ottenere l'output mostrato in figura `./si
 
 ![immagine1](/immagini/example_result.png)
 
+In modo analogo il seguente comando mostra l'istogramma relativo a tutt i file `.txt` presenti nella cartella *home* (e in tutte le sottocartelle).
+
+```
+./sizehisto -e txt /home
+```
