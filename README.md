@@ -1,9 +1,9 @@
 # SizeHisto
 sizehisto.sh è un semplice script per shell bash che data una cartella elenca il numero di file per ciascuna dimensione potenza di due. Lo script permette di selezionare l'estensione dei file di interesse, la cartella da analizzare e la dimensione delle colonne dell'istogramma.
 
-### Installazione
+## Installazione
 Per utilizzare questo script è necessario eseguire i seguenti passaggi:
-1. Copiare il file (sizehisto.sh)[src/sizehisto.sh] sul proprio pc
+1. Copiare il file [sizehisto.sh](src/sizehisto.sh) sul proprio pc
 2. Abilitare il file per l'esecuzione eseguendo il comando `chmod +x sizehisto.sh`
 
 Per lanciare lo script è sufficiente eseguire `./sizehisto.sh`
@@ -12,9 +12,10 @@ Durante l'analisi delle sottocartelle è visibile un contatore che mostra il num
 
 ![immagine2](/immagini/example_search.png)
 
-> [!Note] Lo script potrebbe richiedere tempi considerevoli per l'analisi di aree di memoria di grandi dimensioni.
+> [!NOTE]
+> Lo script potrebbe richiedere tempi considerevoli per l'analisi di aree di memoria di grandi dimensioni.
 
-### Funzionamento
+## Funzionamento
 Lo script può essere lanciato specificando la cartella da analizzare.
 
 ``` 
@@ -25,7 +26,7 @@ Le opzioni disponibili sono le seguenti:
 - `-m` massima lunghezza delle colonne dell'istogramma (in caratteri).
 - `--help` dettagli sul funzionamento dello script e le opzioni.
 
-### Esempi
+## Esempi
 Eseguendo il seguente comando si può ottenere l'output mostrato in figura `./sizehisto -m 20 /home`
 
 ![immagine1](/immagini/example_result.png)
